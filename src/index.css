@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icon {
+  width:32px;
+  height:32px;
+}
+
+.page {
+  display: flex;
+  margin: 32px auto;
+  max-width: 1396px;
+}
+
+.header {
+  display: flex;
+}
+
+.list-header {
+  width:85%;
+  margin-left:64px;
+  margin-top:12px;
+}
+
+.list-header li {
+  font-family: 'Roboto',Arial, Helvetica, sans-serif;
+  color: #345A7B;
+  margin-left:32px;
+  display: inline-block;
+}
