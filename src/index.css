@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Bold.ttf');
+}
+
+.logo:hover {
+  cursor:pointer;
+}
+
 .icon {
   width: 32px;
   height: 32px;
@@ -54,7 +68,7 @@
   list-style: none;
   margin-top:12px;
   color:#2A2A2A;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 #login-paragraph:hover {

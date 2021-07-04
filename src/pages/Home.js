@@ -47,7 +47,7 @@ const Home = () => {
                                 width: '354px'
                             }}>Software focado em detecção de placas veiculares brasileiras, incluindo de motos e padrão mercosul.</S.Description>
                             <div style={{ display: 'flex' }}>
-                                <div style={{ marginTop: '32px' }} onClick={() => { alert('oi') }}>
+                                <div style={{ marginTop: '32px' }}>
                                     <S.ButtonBorderRectangle>
                                         <span style={{ marginLeft: '12px' }}>Download (x64)</span>
                                         <img src={WindowsIcon} className='icon' style={{ marginLeft: '12px' }} />
@@ -61,12 +61,12 @@ const Home = () => {
                                         height: '48px'
                                     }} />
                                 </div>
-                                <div style={{ marginTop: '32px', marginLeft: '32px' }} onClick={() => { alert('oi') }}>
+                                <div style={{ marginTop: '32px', marginLeft: '32px' }}>
                                     <S.ButtonBorderRectangle style={{ backgroundColor: '#86A9C3', border: '1px solid #2293F5' }}>
                                         <span>Saiba mais</span>
                                     </S.ButtonBorderRectangle>
                                     <S.ButtonBorder style={{
-                                        opacity: '80%',
+                                        opacity: '0.8',
                                         marginTop: '-30px',
                                         position: 'relative',
                                         zIndex: '-1',
@@ -168,7 +168,7 @@ const Home = () => {
                         justifyContent: 'center',
                         backgroundColor: '#F5F5F5'
                     }}>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '384px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '198px' }}>
                             <S.Title style={{
                                 marginLeft: '32px',
                                 marginTop: '-384px',
@@ -197,7 +197,7 @@ const Home = () => {
                         justifyContent: 'center',
                         backgroundColor: 'white'
                     }}>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '384px', marginLeft: '258px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '198px', marginLeft: '258px' }}>
                             <S.Title style={{
                                 marginTop: '-384px',
                                 color: '#2293F5',
@@ -234,7 +234,7 @@ const Home = () => {
                         justifyContent: 'center',
                         backgroundColor: '#F5F5F5'
                     }}>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '658px', marginLeft: '300px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '688px', marginLeft: '300px' }}>
                             <S.Title style={{
                                 marginLeft: '32px',
                                 marginTop: '-928px',

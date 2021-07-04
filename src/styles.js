@@ -86,7 +86,7 @@ export const Separator = styled.div`
 
 export const SeparatorTwo = styled.div`
     background-color: #2293F5;
-    opacity: 20%;
+    opacity: 0.2;
     display:table;
     content:'';
     width:7px;
@@ -117,7 +117,7 @@ export const Description = styled.p`
     font-style: italic;
     font-size: 1.125em;
     color: #345A7B;
-    opacity: 80%;
+    opacity: 0.8;
 `
 
 export const Box = styled.div`

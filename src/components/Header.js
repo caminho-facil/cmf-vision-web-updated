@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <img src={Logo} style={{marginTop:'-42px'}} />
+            <img src={Logo} className="logo" style={{marginTop:'-42px'}} />
 
             <ul className="list-header">
                 <li>Suporte</li>
@@ -30,7 +30,7 @@ const Header = () => {
                             <span>TESTE GRÁTIS</span>
                         </S.ButtonLightBlueRounded>
                         </Pulse>
-                        <span style={{ marginTop: '32px', fontFamily: 'Roboto', color: '#2293F5', fontWeight: 'bold', fontSize: '1.00000em', opacity: '80%' }}>São 7 dias por nossa conta!</span>
+                        <span style={{ marginTop: '32px', fontFamily: 'Roboto', color: '#2293F5', fontWeight: 'bold', fontSize: '1.00000em', opacity: '0.8' }}>São 7 dias por nossa conta!</span>
                     </div>
                 </li>
             </ul>
