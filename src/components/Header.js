@@ -6,12 +6,15 @@ import Logo from '../img/Logo.svg'
 
 import CartIcon from '../img/icons/cart.svg'
 
+import {useHistory} from 'react-router-dom'
 
 const Header = () => {
-
+    let history = useHistory();
     return (
         <div className="header">
-            <img src={Logo} className="logo" style={{marginTop:'-42px'}} />
+            <img src={Logo} className="logo" style={{marginTop:'-42px'}} onClick={() => {
+                history.push("/");
+            }}/>
 
             <ul className="list-header">
                 <li>Suporte</li>

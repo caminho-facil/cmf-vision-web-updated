@@ -101,12 +101,12 @@ const Home = () => {
                                 fontWeight: 'bold',
                                 width: '472px'
                             }}>Introdução</S.Title>
-                            <S.ParagraphBold style={{ marginRight: '258px', marginTop: '12px', color: '#2A2A2A' }}>Capture placas de carros através de suas camêras de maneira automatica!</S.ParagraphBold>
+                            <S.ParagraphBold style={{ marginRight: '258px', marginTop: '12px', color: '#2A2A2A' }}>Capture placas de carros através de suas câmeras de maneira automatica!</S.ParagraphBold>
                         </div>
                         <div style={{ display: 'flex', marginTop: '-64px' }}>
 
                             <Tutorial
-                                title="Configure a Camêra"
+                                title="Configure a Câmera"
                                 count={1}
                                 description="Insira o endereço da câmera defina a qualidade e pronto."
                                 image={Tutorial1}
@@ -115,7 +115,7 @@ const Home = () => {
                             <Tutorial
                                 title="Inicie o programa"
                                 count={2}
-                                description="Depois de configurado inicie a camêra para começar as capturas."
+                                description="Depois de configurado inicie a câmera para começar as capturas."
                                 image={Tutorial2}
                             />
 
@@ -127,7 +127,7 @@ const Home = () => {
                             />
 
                         </div>
-                        <S.Title style={{ marginTop: '128px', fontSize: '2.25em', color: '#1A6DB6' }}>É facil, é automático.</S.Title>
+                        <S.Title style={{ marginTop: '128px', fontSize: '2.25em', color: '#1A6DB6' }}>É fácil, é automático.</S.Title>
                         <S.Separator style={{ marginTop: '32px', width: '128px', backgroundColor: '#E5E9ED' }} />
                     </S.BoxFullWidth>
                 </Zoom>
@@ -177,7 +177,7 @@ const Home = () => {
                                 fontFamily: 'Roboto',
                                 fontWeight: 'bold',
                                 width: '605px'
-                            }}>Cadastre quantas camêras quiser!</S.Title>
+                            }}>Cadastre quantas câmeras quiser!</S.Title>
                             <S.ParagraphBold style={{ marginTop: '12px', color: '#2A2A2A' }}>Configure sua câmera por IP</S.ParagraphBold>
                         </div>
                         <div style={{ display: 'flex' }}>
@@ -216,9 +216,9 @@ const Home = () => {
                             <S.SeparatorTwo style={{ marginLeft: '32px', marginTop: '32px' }} />
 
                             <div style={{ display: 'flex', flexDirection: 'column', marginTop: '-32px' }}>
-                                <ListInfo title="Excel" description="Armazene os dados no seu excel de maneira facil" icon={ExcelIcon} color="#20744A" />
-                                <ListInfo title="Telegram" description="Armazene os dados no seu telegram de maneira facil" icon={TelegramIcon} color="#40B3E0" />
-                                <ListInfo title="Banco de Dados" description="Armazene os dados no seu banco de dados de maneira facil" icon={DatabaseIcon} color="#1762A3" />
+                                <ListInfo title="Excel" description="Armazene os dados no seu excel de maneira fácil" icon={ExcelIcon} color="#20744A" />
+                                <ListInfo title="Telegram" description="Armazene os dados no seu telegram de maneira fácil" icon={TelegramIcon} color="#40B3E0" />
+                                <ListInfo title="Banco de Dados" description="Armazene os dados no seu banco de dados de maneira fácil" icon={DatabaseIcon} color="#1762A3" />
                             </div>
 
                         </div>
@@ -244,7 +244,7 @@ const Home = () => {
                                 fontWeight: 'bold',
                                 width: '605px'
                             }}>Está esperando o que?</S.Title>
-                            <S.Paragraph style={{ marginRight: '198px', marginTop: '12px', color: '#2A2A2A' }}>Escolha seu plano e transforme sua camêra em uma SMART Câmera!</S.Paragraph>
+                            <S.Paragraph style={{ marginRight: '198px', marginTop: '12px', color: '#2A2A2A' }}>Escolha seu plano e transforme sua câmera em uma SMART Câmera!</S.Paragraph>
                             <S.Separator style={{ marginRight: '198px', marginTop: '32px', backgroundColor: '#E5E9ED' }} />
                         </div>
                         <div style={{ display: 'flex' }}>

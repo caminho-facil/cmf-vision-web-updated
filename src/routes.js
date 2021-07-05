@@ -7,6 +7,9 @@ import {
 } from 'react-router-dom'
 
 import Home from './pages/Home'
+
+import Privacy from './pages/Privacy'
+
 import NotFound from './pages/Home'
 
 const Routes = () => {
@@ -14,7 +17,8 @@ const Routes = () => {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route component={NotFound}/>
+                <Route exact path="/privacy" component={Privacy} />
+                <Route component={NotFound} />
             </Switch>
         </BrowserRouter>
     )

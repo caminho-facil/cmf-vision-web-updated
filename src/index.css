@@ -71,6 +71,11 @@
   opacity: 0.8;
 }
 
+.footer li:hover {
+  cursor:pointer;
+  text-decoration: underline;
+}
+
 #login-paragraph:hover {
   cursor:pointer;
   text-decoration: underline;
