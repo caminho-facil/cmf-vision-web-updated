@@ -50,13 +50,12 @@ const Home = () => {
                                 <div style={{ marginTop: '32px' }}>
                                     <S.ButtonBorderRectangle>
                                         <span style={{ marginLeft: '12px' }}>Download (x64)</span>
-                                        <img src={WindowsIcon} className='icon' style={{ marginLeft: '12px' }} />
+                                        <img src={WindowsIcon} className='icon' style={{ marginLeft: '12px' }}  alt="icon-windows" />
                                     </S.ButtonBorderRectangle>
                                     <S.ButtonBorder style={{
-                                        marginTop: '-30px',
+                                        marginTop: '-40px',
                                         position: 'relative',
                                         zIndex: '-1',
-                                        marginTop: '-40px',
                                         width: '220px',
                                         height: '48px'
                                     }} />
@@ -67,10 +66,9 @@ const Home = () => {
                                     </S.ButtonBorderRectangle>
                                     <S.ButtonBorder style={{
                                         opacity: '0.8',
-                                        marginTop: '-30px',
+                                        marginTop: '-40px',
                                         position: 'relative',
                                         zIndex: '-1',
-                                        marginTop: '-40px',
                                         width: '220px',
                                         height: '48px'
                                     }} />
@@ -78,7 +76,7 @@ const Home = () => {
                             </div>
                             <S.ParagraphBold style={{ marginTop: '32px' }}>ALPR Simplificado <span style={{ fontFamily: 'Noto Sans', fontStyle: 'italic', fontSize: '0.875em', fontWeight: 'normal' }}>v0.0.1</span> </S.ParagraphBold>
                         </div>
-                        <img src={Banner} />
+                        <img src={Banner} alt="banner" />
                     </S.Box>
                 </Slide>
             </Page>
@@ -153,7 +151,7 @@ const Home = () => {
                         </div>
                         <div style={{ display: 'flex' }}>
 
-                            <img src={Banner1} style={{ marginTop: '-98px', marginLeft: '64px' }} />
+                            <img src={Banner1} style={{ marginTop: '-98px', marginLeft: '64px' }} alt="banner1" />
 
                         </div>
                     </S.BoxFullWidth>
@@ -182,7 +180,7 @@ const Home = () => {
                         </div>
                         <div style={{ display: 'flex' }}>
 
-                            <img src={Banner2} style={{ marginTop: '-98px' }} />
+                            <img src={Banner2} style={{ marginTop: '-98px' }} alt="banner2" />
 
                         </div>
                     </S.BoxFullWidth>
@@ -211,7 +209,7 @@ const Home = () => {
                         <div style={{ display: 'flex' }}>
 
                             <div style={{ marginLeft: '-64px' }}>
-                                <img src={Banner3} style={{ marginTop: '-98px', width: '956px', height: '541px' }} />
+                                <img src={Banner3} style={{ marginTop: '-98px', width: '956px', height: '541px' }} alt="banner3" />
                             </div>
                             <S.SeparatorTwo style={{ marginLeft: '32px', marginTop: '32px' }} />
 

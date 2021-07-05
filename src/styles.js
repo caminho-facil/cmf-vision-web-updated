@@ -120,6 +120,19 @@ export const Description = styled.p`
     opacity: 0.8;
 `
 
+
+export const DescriptionLink = styled.p`
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-size: 1.125em;
+    color: #345A7B;
+    opacity: 0.8;
+    :hover {
+        cursor:pointer;
+        text-decoration:underline;
+    }
+`
+
 export const Box = styled.div`
 width:100%;
 height: 647px;
@@ -129,4 +142,17 @@ height: 647px;
 export const BoxFullWidth = styled.div`
 width:100%;
 height: 647px;
+`
+
+export const Input = styled.input`
+    font-family: 'Noto Sans';
+    font-style: italic;
+    color:'#345A7B';
+    opacity:0.7;
+    font-size:1.125em;
+    border-radius: 27px;
+    border: 1px solid #1A6DB6;
+    width:364px;
+    height:32px;
+    padding-left: 20px;
 `

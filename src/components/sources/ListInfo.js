@@ -9,7 +9,7 @@ const ListInfo = (props) => {
 
     return (
         <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 64px',marginBottom:'32px' }}>
-            <img style={{ marginTop: '32px', width: '64px', height: '64px', border: '4px solid #1A6DB6', borderRadius: '8px' }} src={icon} />
+            <img style={{ marginTop: '32px', width: '64px', height: '64px', border: '4px solid #1A6DB6', borderRadius: '8px' }} src={icon} alt="icon" />
             <div style={{
                 marginTop: '12px', marginLeft: '32px',
                 width: '237px'
